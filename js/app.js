@@ -2,6 +2,9 @@ window.onload = function LoadData() {
 
     initStatesDropdown();
     initParkDropDown();
+    document.getElementById("searchButton").addEventListener("click", runSearch);
+  
+
 };
 
 function initStatesDropdown() {
@@ -39,5 +42,17 @@ function initParkDropDown() {
     }
 }
 
+function runSearch()
+{
+   //Select the selected value from the park
+    const statesList = document.getElementById("statesList");
+    const selectedValue = statesList.value;
+    
+//Select the selected value from the park
+    const parkList = document.getElementById("parkList");
+    const selectedPark = parkList.value
+    alert(selectedValue + " - " + selectedPark);
+
+}
 
 
