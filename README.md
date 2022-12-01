@@ -3,8 +3,7 @@
  
  # Action Plan for any Capstone Project!
  Create basic folder and file structure.
- 
-	
+ 	
 	
 	
 	
