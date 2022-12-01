@@ -1,8 +1,11 @@
 # CapstoneTemplate
  Barebone template for any capstone project.
  
-	Action Plan for any Capstone Project!
-	Create basic folder and file structure.
+ # Action Plan for any Capstone Project!
+ Create basic folder and file structure.
+ 
+	
+	
 	
 	
 
