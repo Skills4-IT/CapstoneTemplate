@@ -20,13 +20,60 @@
 
 <body>
     <header>
+
         <!-- place navbar here -->
+        <nav>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Enjoy Exploring Outdoors</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" aria-current="page">Home <span
+                                        class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nationalpark.html">National Park</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mountains.html">Mountains</a>
+                            </li>
+
+
+                        </ul>
+                        <form class="d-flex my-2 my-lg-0">
+                            <input class="form-control me-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+            </nav>
+
+
+
     </header>
     <main>
 
+        <div class="container">
+            <select id="statesList"></select>
+            <select id="parkList"></select>
+        </div>
     </main>
     <footer>
         <!-- place footer here -->
+        <div class="myfooter">
+            <a class="myfooter_links" href="https://www.youtube.com"></a><i class="fa-brands fa-youtube"></i> YouTube
+            <a class="myfooter_links" href="https://www.facebook.com"></a></a><i class="fa-brands fa-facebook"></i>
+            Facebook
+            <a class="myfooter_links" href="https://www.twiiter.com"></a></a><i class="fa-brands fa-twitter"></i>
+            Twitter
+        </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -38,7 +85,12 @@
     </script>
 
     <!-- Custom JavaScript-->
+    <script src="js/locationData.js"></script>
+    <script src="js/mountainData.js"></script>
+    <script src="js/nationalParkData.js"></script>
+    <script src="js/parkTypeData.js"></script>
     <script src="js/app.js"></script>
+
 </body>
 
 </html>
